@@ -14,7 +14,7 @@ export function About() {
           interesting.
         </p>
         <p className="text-[clamp(16px,1.9vw,18px)] leading-[1.65] tracking-[-0.005em] text-muted-foreground">
-          Currently building product features in a small engineering team.
+          Currently working across frontend and product in a small engineering team.
           Always happy to talk about frontend architecture, FPL, or where to get
           a decent coffee.
         </p>
