@@ -32,6 +32,9 @@ export function Hero() {
               className="text-[15px] underline underline-offset-4 transition-colors hover:text-accent focus-visible:text-accent focus-visible:outline-none"
             >
               {link.label}
+              {link.href.startsWith("http") && (
+                <span className="sr-only"> (opens in a new tab)</span>
+              )}
             </a>
           </li>
         ))}
