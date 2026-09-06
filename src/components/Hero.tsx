@@ -9,14 +9,14 @@ const links = [
 
 export function Hero() {
   return (
-    <section className="flex min-h-[80dvh] flex-col justify-center py-16 sm:py-24 lg:min-h-[68dvh]">
-      <h1 className="text-5xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
+    <section className="flex flex-col pt-20 sm:pt-28 lg:pt-32">
+      <h1 className="text-[clamp(38px,7.6vw,68px)] font-semibold leading-[0.98] tracking-[-0.035em] text-foreground">
         Stephen Moran
       </h1>
-      <p className="mt-4 text-xl font-medium text-foreground sm:text-2xl">
+      <p className="mt-4 text-[clamp(16px,1.9vw,19px)] font-medium leading-[1.45] tracking-[-0.01em] text-foreground">
         Frontend / Product Engineer based in Dublin.
       </p>
-      <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground sm:max-w-lg sm:text-lg">
+      <p className="mt-6 max-w-md text-[clamp(16px,1.9vw,19px)] leading-[1.6] tracking-[-0.005em] text-muted-foreground sm:max-w-lg">
         I specialise in React and TypeScript, and enjoy building complex product
         features and reusable frontend systems — particularly interfaces that
         make complicated workflows feel simple.
@@ -29,7 +29,7 @@ export function Hero() {
               {...(link.href.startsWith("http")
                 ? { target: "_blank", rel: "noopener noreferrer" }
                 : {})}
-              className="underline underline-offset-4 transition-colors hover:text-accent focus-visible:text-accent focus-visible:outline-none"
+              className="text-[15px] underline underline-offset-4 transition-colors hover:text-accent focus-visible:text-accent focus-visible:outline-none"
             >
               {link.label}
             </a>
