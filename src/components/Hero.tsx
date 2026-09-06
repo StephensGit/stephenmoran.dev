@@ -17,9 +17,9 @@ export function Hero() {
         Frontend / Product Engineer based in Dublin.
       </p>
       <p className="mt-6 max-w-md text-[clamp(16px,1.9vw,19px)] leading-[1.6] tracking-[-0.005em] text-muted-foreground sm:max-w-lg">
-        I specialise in React and TypeScript, and enjoy building complex product
-        features and reusable frontend systems — particularly interfaces that
-        make complicated workflows feel simple.
+        I’m a frontend engineer working mostly with React and TypeScript. I love
+        the product side of things, and I’m currently experimenting with AI and
+        getting more into backend development.
       </p>
       <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-2 sm:mt-10">
         {links.map((link) => (
