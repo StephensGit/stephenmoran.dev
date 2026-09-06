@@ -32,3 +32,12 @@ body {
   background: var(--foreground);
   color: var(--background);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    /* biome-ignore lint/complexity/noImportantStyles: needed to override transition-duration set by Tailwind utility classes */
+    transition-duration: 0.01ms !important;
+  }
+}
