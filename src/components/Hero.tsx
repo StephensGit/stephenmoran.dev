@@ -1,7 +1,7 @@
 const links = [
   {
     label: "GitHub",
-    href: "https://github.com/StephensGit/dublin-coffee-guide-ie/commits/main/",
+    href: "https://github.com/StephensGit/",
   },
   { label: "LinkedIn", href: "https://ie.linkedin.com/in/stephen-moran-" },
   { label: "Email", href: "mailto:hello@stephenmoran.dev" },
