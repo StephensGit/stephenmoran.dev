@@ -11,12 +11,13 @@ export function About() {
         <p className="text-[clamp(16px,1.9vw,18px)] leading-[1.65] tracking-[-0.005em] text-foreground">
           I build product features from idea to delivery, work mostly with React
           and TypeScript, and make things on the side that I find useful or
-          interesting.
+          interesting. Lately, I've been experimenting a lot with AI and going
+          beyond the frontend more often.
         </p>
         <p className="text-[clamp(16px,1.9vw,18px)] leading-[1.65] tracking-[-0.005em] text-muted-foreground">
-          Currently working across frontend and product in a small engineering team.
-          Always happy to talk about frontend architecture, FPL, or where to get
-          a decent coffee.
+          Currently working across frontend and product in an engineering team.
+          Always happy to talk about all things tech, FPL, or where to get a
+          decent coffee.
         </p>
       </div>
     </section>
