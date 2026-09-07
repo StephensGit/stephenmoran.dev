@@ -7,6 +7,19 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "PromptLint",
+    description: "A linter for Claude Code prompts.",
+    year: "2026",
+    href: "https://prompt-lint.com/",
+  },
+  {
+    title: "Dev Library",
+    description:
+      "A personal library for saving, organising and searching useful developer commands and snippets.",
+    year: "2026",
+    href: "https://github.com/StephensGit/dev-library",
+  },
+  {
     title: "Project Resume",
     description:
       "A tool for developers to build a living, project-focused record of their engineering work.",

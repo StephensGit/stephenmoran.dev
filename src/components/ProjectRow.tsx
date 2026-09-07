@@ -30,8 +30,13 @@ export function ProjectRow({ project, index }: ProjectRowProps) {
   }
 
   return (
-    <li className="border-b border-line transition-colors first:border-t hover:border-foreground focus-within:border-foreground">
-      <a href={project.href} className="group block focus-visible:outline-none">
+    <li className="border-b border-line transition-colors first:border-t hover:border-b-foreground focus-within:border-b-foreground">
+      <a
+        href={project.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block focus-visible:outline-none"
+      >
         {row}
       </a>
     </li>
